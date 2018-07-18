@@ -1,0 +1,7 @@
+# cp ./.gitconfig ~/.gitconfig
+
+[core]
+	autocrlf = false
+	safecrlf = true
+	eol = lf
+	editor = vim

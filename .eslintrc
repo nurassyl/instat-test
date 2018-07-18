@@ -1,0 +1,58 @@
+{
+	"parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+		"plugin:prettier/recommended",
+		"prettier/flowtype",
+		"prettier/react",
+		"prettier/standard",
+		"plugin:flowtype/recommended"
+	],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "prettier",
+      "flowtype"
+    ],
+  "rules": {
+		"prettier/prettier": "error",
+    "indent": [
+      "error",
+      "tab"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "never"
+		],
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "no-undef": "warn",
+    "no-class-assign": "warn"
+  },
+  "globals": {
+    "devMode": true,
+    "proMode": true,
+    "module": true,
+    "require": true,
+    "_": true
+  }
+}

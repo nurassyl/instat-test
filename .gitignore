@@ -1,0 +1,42 @@
+# Distribution directory
+dist/
+
+# Error log files
+npm-error.log*
+yarn-error.log*
+
+# Debug log files
+npm-debug.log*
+yarn-debug.log*
+
+# Dependencies
+node_modules/
+bower_components/
+vendor/
+
+# nano & vim editors swap files
+nano.save
+*.swp
+**/*.swp
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Webstorm project files
+.idea
+.settings
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Other
+*.stackdump

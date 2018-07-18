@@ -1,0 +1,42 @@
+@import "./vendors";
+
+#app {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+// Todo Component
+.todo-component {
+	margin-top: 50px;
+	margin-bottom: 70px;
+
+	.todo-create-component {
+		margin-top: 30px;
+	}
+
+	.todo-list-component {
+		margin-top: 50px;
+
+		.todo-list-item {
+			&__name,
+			&__completed {
+				display: inline-block;
+			}
+
+			&__name {
+				width: 340px;
+			}
+
+			&__completed {
+				width: 100px;
+				margin-left: 15px;
+				user-select: none;
+
+				label,
+				input {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

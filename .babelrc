@@ -1,0 +1,23 @@
+{
+	"presets": [
+		"env",
+		"flow",
+		"react"
+	],
+	"plugins": [
+		"react-hot-loader/babel",
+		"react-flow-props-to-prop-types",
+		"transform-decorators-legacy",
+		"transform-class-properties"
+	],
+	"sourceMaps": true,
+	"compact": true,
+	"env": {
+		"production": {
+			"sourceMaps": false,
+			"compact": false,
+			"ast": false,
+			"comments": false
+		}
+	}
+}
